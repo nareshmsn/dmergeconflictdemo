@@ -10,7 +10,7 @@ public class Demo {
     	scan.close();
         boolean isLeap = false;
 
-        if(year % 4 == 0)
+        if(year % 5 == 0)
         {
             if( year % 100 == 0)
             {
