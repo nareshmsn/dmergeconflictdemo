@@ -10,8 +10,11 @@ public class Demo {
     	scan.close();
         boolean isLeap = false;
 
+
         if(year % 5 == 0)
+
         {
+			System.out.println("fun");
             if( year % 100 == 0)
             {
                 if ( year % 400 == 0)
@@ -19,6 +22,7 @@ public class Demo {
                 else
                     isLeap = false;
             }
+			System.out.println("fun");
             else
                 isLeap = true;
         }
