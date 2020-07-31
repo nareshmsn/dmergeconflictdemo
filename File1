@@ -1,0 +1,12 @@
+File1
+
+Checkout a new branch and edit conflicts.rb. Add ‘Line4’ and ‘Line5’.
+Commit and push.
+Checkout master and edit conflicts.rb. Add ‘Line6’ and ‘Line7’ below ‘Line3’.
+Commit and push to master.
+Create a merge request and watch it fail.
+Rebase our new branch with master.
+Fix conflicts on the conflicts.rb file.
+Stage the file and continue rebasing.
+Force push the changes.
+Finally continue with the Merge Request.
